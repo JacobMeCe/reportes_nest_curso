@@ -14,6 +14,7 @@ const currentDate: Content = {
     alignment: 'right',
     margin: [20, 40],
     width: 150,
+    fontSize: 10,
 }
 
 interface HeaderOptions {
@@ -32,7 +33,6 @@ export const headerSection = (options: HeaderOptions): Content => {
         alignment: 'center',
         margin: [0, 0, 0, 20],
         style: {
-            bold: true,
             fontSize: 16,
         },
     } : null;

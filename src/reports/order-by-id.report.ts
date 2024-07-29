@@ -108,7 +108,7 @@ export const orderByIdReport = (value: ReportValues): TDocumentDefinitions => {
 
             //QR Code
             {
-                qr: 'https://devtalles.com',
+                qr: '1',
                 fit: 75,
                 alignment: 'right',
             },
